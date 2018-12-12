@@ -24,8 +24,8 @@ echo -e
 "_________________________________________________$_____"
 echo -e  "Tools    : ./Tuan Star $white "|lolcat
 echo -e  "Created by  : Star $white   "|lolcat
-echo -e  "From  : S.A.D Cyber Team $cyan " |lol$
-echo -e "_________________________________________$_____"
+echo -e  "From  : S.A.D Cyber Team $cyan " |lolcat
+echo -e "__________________________________________"
 
 ###################################################
 # CTRL + C
