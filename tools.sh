@@ -1,5 +1,5 @@
 
-#/bin/bash
+#!/bin/bash
 #version 1.0
 
 # Variables
@@ -21,11 +21,11 @@ red='\e[1;31m'
 figlet Star   |lolcat
 
 echo -e
-"_________________________________________________$_____"
-echo -e  "Tools    : ./Tuan Star $white "|lolcat
-echo -e  "Created by  : Star $white   "|lolcat
-echo -e  "From  : S.A.D Cyber Team $cyan " |lolcat
-echo -e "__________________________________________"
+"________________________________________________"
+echo -e  "Tools    : ./Tuan Star $white " | lolcat
+echo -e  "Created by  : Star $white   " | lolcat
+echo -e  "From  : S.A.D Cyber Team $cyan " | lolcat
+echo -e "________________________________________"
 
 ###################################################
 # CTRL + C
@@ -154,7 +154,7 @@ cd /data/data/com.termux/files/home/Plutus
 
 
 #Install ContexPloit
-9) git clone https://github.com/BlackHoleSecurity$
+9) git clone https://github.com/BlackHoleSecurity
 echo -e "${y} SUDAH TERINSTALL.."
 cd /data/data/com.termux/files/home/contexploit
 
