@@ -1,5 +1,5 @@
 
-#!/bin/bash
+#/bin/bash
 #version 1.0
 
 # Variables
@@ -20,10 +20,8 @@ red='\e[1;31m'
 
 figlet Star   |lolcat
 
-echo -e
-"________________________________________________"
+echo -e "________________________________________________"
 echo -e  "Tools    : ./Tuan Star $white " | lolcat
-echo -e  "Created by  : Star $white   " | lolcat
 echo -e  "From  : S.A.D Cyber Team $cyan " | lolcat
 echo -e "________________________________________"
 
@@ -37,7 +35,7 @@ echo -b $red"[#]> (Ctrl + C ) Detected, Trying to exit"
 echo -b $cyan"[#]> Thanks"
 sleep 1
 echo ""
-echo -b  $white"[#]> see you gaes :)..."
+echo -b $white"[#]> see you gaes :)..."
 sleep 1
 exit
 }
@@ -122,7 +120,7 @@ echo -e "${y} Installer Tool-X..."
 echo -e "${y} cd Tool-X"
 echo -e "${y} sh install.aex"
 cd /data/data/com.termux/files/home/Tool-X
-bash /data/data/com.termux/files/home/Tool-X/sh in$
+bash /data/data/com.termux/files/home/Tool-X/sh install.aex
 
 ;;
 
@@ -166,7 +164,7 @@ exit
 ;;
 
 
-*) echo -e "sorry, pilihan yang anda cari tidak ad$
+*) echo -e "sorry, pilihan yang anda cari tidak ada" | lolcat
 esac
 done
 done
