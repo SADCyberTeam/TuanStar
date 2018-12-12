@@ -1,29 +1,16 @@
 
-#/bin/bash
+#!/bin/bash
 #version 1.0
 
 # Variables
-b='\033[1m'
-u='\033[4m'
-bl='\E[30m'
-r='\E[31m'
-g='\E[32m'
-bu='\E[34m'
-m='\E[35m'
-c='\E[36m'
-w='\E[37m'
-endc='\E[0m'
-enda='\033[0m'
-blue='\e[1;34m'
-cyan='\e[1;36m'
-red='\e[1;31m'
+
 
 figlet Star   |lolcat
 
 echo $pink "________________________________________"
-echo $red "Tools    : ./Tuan Star $white " | lolcat
-echo $cyan "From  : S.A.D Cyber Team $cyan " | lolcat
-echo $pink "________________________________________"
+echo $red"Tools    : ./Tuan Star " |lolcat
+echo $cyan"From  : S.A.D Cyber Team " |lolcat
+echo $pink"________________________________________"
 
 ###################################################
 # CTRL + C
@@ -44,30 +31,30 @@ lagi=1
 while [ $lagi -lt 6 ];
 do
 echo ""
-echo -e $b "1.  Nmap${enda}";
-echo -e "============================" | lolcat
-echo -e $r "2.  Admin-finder${endc}";
-echo -e "============================" | lolcat
-echo -e $g "3.  RED_HAWK${endc}";
-echo -e "============================" | lolcat
-echo -e $c "4.   Lazymux${endc}";
-echo -e "============================" | lolcat
-echo -e $r "5.  Tools-X${endc}";
-echo -e "============================" | lolcat
-echo -e $b "6. badmood${endc}";
-echo -e "============================" | lolcat
-echo -e $r "7. BomHash${endc}";
-echo -e "============================" | lolcat
-echo -e $c "8. Plutus${endc}";
-echo -e "============================" | lolcat
-echo -e $b "9. ContexPloit${endc}";
-echo -e "============================" | lolcat
-echo $cyan "10. Install nano (family of PHP webshells)"
-echo "[===============================================]>"
-echo -e " 11.exit${endc}";
-echo -e ""
-echo -e " ╭─S.A.D " | lolcat
-read -p " ╰─# " pil;
+echo $cyan"1.  Nmap ";
+echo $silver"============================" |lolcat
+echo $red"2.  Admin-finder ";
+echo $gold"============================" |lolcat
+echo $green"3.  RED_HAWK ";
+echo $aqua"============================" |lolcat
+echo $purple"4.   Lazymux ";
+echo $white"============================" |lolcat
+echo $blue"5.  Tools-X ";
+echo $orange"============================" |lolcat
+echo $brown"6. badmood ";
+echo $lime"============================" |lolcat
+echo $aqua"7. BomHash ";
+echo $pink"============================" |lolcat
+echo $navy"8. Plutus ";
+echo $cream"============================" |lolcat
+echo $gold"9. ContexPloit ";
+echo $silver"============================" |lolcat
+echo $cyan"10. Install nano (family of PHP webshells)"
+echo $white"================================="
+echo $purple" 11.exit ";
+echo ""
+echo $aqua" ╭─S.A.D " |lolcat
+read $blue" ╰─# " pil;
 
 # Nmap
 
