@@ -1,5 +1,5 @@
 
-#!/bin/bash
+#!/system/xbin/bash
 #version 1.0
 
 # Variables
@@ -12,15 +12,14 @@ white='\033[37;1m'
 yellow='\033[33;1m'
 sleep 1
 echo $red
-cat asw.txt
 echo ""
-echo "\033[34;[$]\033[36;1m============================\033[34;[$]"
-echo "\033[32;Author : ./Tuan Star"
-echo "\033[92m:S.A.D Cyber Team"
-echo "\033[34;[$]\033[36;============================\033[34;[$]"
+echo "\033[34;1m[$]\033[36;1m============================\033[34;[$]"
+echo "\033[32;1mAuthor : ./Tuan Star"
+echo "\033[92m:1mS.A.D Cyber Team"
+echo "\033[34;1m[$]\033[361m;============================\033[34;[$]"
 echo ""
-echo "\033[32;Silahkan Pilih Tools yang tersedia"
-echo "\033[36; :("
+echo "\033[321m;Silahkan Pilih Tools yang tersedia"
+echo "\033[36;1m :("
 
 figlet Star   |lolcat
 
@@ -44,28 +43,28 @@ while [ $lagi -lt 6 ];
 do
 echo ""
 echo -s "1.  Nmap ";
-echo -s "============================" |lolcat
-echo -s "2.  Admin-finder ";
-echo -s "============================" |lolcat
+echo  "============================" | lolcat
+echo  -s"2.  Admin-finder ";
+echo  "============================" | lolcat
 echo -s "3.  RED_HAWK ";
-echo -s "============================" |lolcat
+echo "============================" | lolcat
 echo -s "4.   Lazymux ";
-echo -s "============================" |lolcat
+echo "============================" | lolcat
 echo -s "5.  Tools-X ";
-echo -s "============================" |lolcat
+echo "============================" | lolcat
 echo -s "6. badmood ";
-echo -s "============================" |lolcat
+echo "============================" | lolcat
 echo -s "7. BomHash ";
-echo -s "============================" |lolcat
+echo "============================" | lolcat
 echo -s "8. Plutus ";
-echo -s "============================" |lolcat
+echo "============================" | lolcat
 echo -s "9. ContexPloit ";
-echo -s "============================" |lolcat
+echo "============================" | lolcat
 echo -s "10. Install nano (family of PHP webshells)"
-echo -s "================================="
+echo "=================================" | lolcat
 echo -s " 11. Install Tools Mr.Bajinganv6";
-echo ""
-echo -e" ╭─S.A.D " |lolcat
+echo "============================" | lolcat
+echo -e" ╭─S.A.D " | lolcat
 read -p" ╰─# " pil;
 
 # Nmap
@@ -184,7 +183,7 @@ password : Gans
 
 ;;
 
-12) echo -s "Salam Script Kiddie" |lolcat
+12) echo -s "Salam Script Kiddie" | lolcat
 
 exit 
 
