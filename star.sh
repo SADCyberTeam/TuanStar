@@ -20,10 +20,10 @@ red='\e[1;31m'
 
 figlet Star   |lolcat
 
-echo -e "________________________________________________"
-echo -e  "Tools    : ./Tuan Star $white " | lolcat
-echo -e  "From  : S.A.D Cyber Team $cyan " | lolcat
-echo -e "________________________________________"
+echo $pink "________________________________________"
+echo $red "Tools    : ./Tuan Star $white " | lolcat
+echo $cyan "From  : S.A.D Cyber Team $cyan " | lolcat
+echo $pink "________________________________________"
 
 ###################################################
 # CTRL + C
@@ -62,7 +62,9 @@ echo -e $c "8. Plutus${endc}";
 echo -e "============================" | lolcat
 echo -e $b "9. ContexPloit${endc}";
 echo -e "============================" | lolcat
-echo -e $r "10. exit${endc}";
+echo $cyan "10. Install nano (family of PHP webshells)"
+echo "[===============================================]>"
+echo -e " 11.exit${endc}";
 echo -e ""
 echo -e " ╭─S.A.D " | lolcat
 read -p " ╰─# " pil;
@@ -158,8 +160,13 @@ cd /data/data/com.termux/files/home/contexploit
 
 ;;
 
+10.apt update apt upgrade
+apt install python2
+apt install git 
+git clone https://github.com/UltimateHackers/huemv hue $HOMEcd $HOME/huepython2 hue.pyfi if [ $bro = 180 ] || [ $bro = 180 ] apt update apt upgradeapt install python2apt install gitgit clone https://github.com/UltimateHackers/nano mv nano $HOMEcd $HOME/nanopython2 handler.py
+fi
 
-10) echo -e "Thanx Sudah mampir :)  " | lolcat
+11) echo -e "Thanx Sudah mampir :)  " | lolcat
 exit
 ;;
 
