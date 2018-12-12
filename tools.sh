@@ -1,3 +1,4 @@
+
 #/bin/bash
 #version 1.0
 
@@ -20,11 +21,11 @@ red='\e[1;31m'
 figlet Star   |lolcat
 
 echo -e
-"_________________________________________________$
+"_________________________________________________$_____"
 echo -e  "Tools    : ./Tuan Star $white "|lolcat
 echo -e  "Created by  : Star $white   "|lolcat
 echo -e  "From  : S.A.D Cyber Team $cyan " |lol$
-echo -e "_________________________________________$
+echo -e "_________________________________________$_____"
 
 ###################################################
 # CTRL + C
@@ -32,7 +33,7 @@ echo -e "_________________________________________$
 trap ctrl_c INT
 ctrl_c() {
 clear
-echo -b $red"[#]> (Ctrl + C ) Detected, Trying To $
+echo -b $red"[#]> (Ctrl + C ) Detected, Trying to exit"
 echo -b $cyan"[#]> Thanks"
 sleep 1
 echo ""
@@ -81,13 +82,13 @@ echo
 
 # admin-finder
 
-2) git clone https://github.com/the-c0d3r/admin-fi$
+2) git clone https://github.com/the-c0d3r/admin-finder.git
 echo -e "${y} cara menggunakan admin finder"
 echo -e "${y} cd admin-finder"
 echo -e "${y} python admin-finder.py"
 cd /data/data/com.termux/files/home/admin-finder/
 python2
-/data/data/com.termux/files/home/admin-finder/admi$
+/data/data/com.termux/files/home/admin-finder/admin
 echo
 
 ;;
@@ -136,7 +137,7 @@ cd /data/data/com.termux/files/home/BadMod
 
 #Install BoomHash
 
-7) git clone https://github.com/linuxskills/Boomh$
+7) git clone https://github.com/linuxskills/Boomhash
 echo -e "${y} SUDAH TERINSTALL.."
 cd /data/data/com.termux/files/home/Boomhhash
 
