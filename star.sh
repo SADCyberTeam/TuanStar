@@ -3,14 +3,26 @@
 #version 1.0
 
 # Variables
-
+blue='\033[34;1m'
+green='\033[32;1m'  
+purple='\033[35;1m'
+cyan='\033[36;1m'
+red='\033[31;1m'
+white='\033[37;1m'                                           
+yellow='\033[33;1m'
+sleep 1
+echo $red
+cat asw.txt
+echo ""
+echo "\033[34;[$]\033[36;1m============================\033[34;[$]"
+echo "\033[32;Author : ./Tuan Star"
+echo "\033[92m:S.A.D Cyber Team"
+echo "\033[34;[$]\033[36;============================\033[34;[$]"
+echo ""
+echo "\033[32;Silahkan Pilih Tools yang tersedia"
+echo "\033[36; :("
 
 figlet Star   |lolcat
-
-echo $pink "________________________________________"
-echo $red"Tools    : ./Tuan Star " |lolcat
-echo $cyan"From  : S.A.D Cyber Team " |lolcat
-echo $pink"________________________________________"
 
 ###################################################
 # CTRL + C
@@ -31,30 +43,30 @@ lagi=1
 while [ $lagi -lt 6 ];
 do
 echo ""
-echo $cyan"1.  Nmap ";
-echo $silver"============================" |lolcat
-echo $red"2.  Admin-finder ";
-echo $gold"============================" |lolcat
-echo $green"3.  RED_HAWK ";
-echo $aqua"============================" |lolcat
-echo $purple"4.   Lazymux ";
-echo $white"============================" |lolcat
-echo $blue"5.  Tools-X ";
-echo $orange"============================" |lolcat
-echo $brown"6. badmood ";
-echo $lime"============================" |lolcat
-echo $aqua"7. BomHash ";
-echo $pink"============================" |lolcat
-echo $navy"8. Plutus ";
-echo $cream"============================" |lolcat
-echo $gold"9. ContexPloit ";
-echo $silver"============================" |lolcat
-echo $cyan"10. Install nano (family of PHP webshells)"
-echo $white"================================="
-echo $purple" 11.exit ";
+echo -s "1.  Nmap ";
+echo -s "============================" |lolcat
+echo -s "2.  Admin-finder ";
+echo -s "============================" |lolcat
+echo -s "3.  RED_HAWK ";
+echo -s "============================" |lolcat
+echo -s "4.   Lazymux ";
+echo -s "============================" |lolcat
+echo -s "5.  Tools-X ";
+echo -s "============================" |lolcat
+echo -s "6. badmood ";
+echo -s "============================" |lolcat
+echo -s "7. BomHash ";
+echo -s "============================" |lolcat
+echo -s "8. Plutus ";
+echo -s "============================" |lolcat
+echo -s "9. ContexPloit ";
+echo -s "============================" |lolcat
+echo -s "10. Install nano (family of PHP webshells)"
+echo -s "================================="
+echo -s " 11. Install Tools Mr.Bajinganv6";
 echo ""
-echo $aqua" ╭─S.A.D " |lolcat
-read $blue" ╰─# " pil;
+echo -e" ╭─S.A.D " |lolcat
+read -p" ╰─# " pil;
 
 # Nmap
 
@@ -140,23 +152,41 @@ cd /data/data/com.termux/files/home/Plutus
 ;;
 
 
-#Install ContexPloit
+# Install ContexPloit
+
 9) git clone https://github.com/BlackHoleSecurity
 echo -e "${y} SUDAH TERINSTALL.."
 cd /data/data/com.termux/files/home/contexploit
 
 ;;
 
-10.apt update apt upgrade
+# InstallNano (family of PHP webshells)
+
+10) apt update && apt upgrade
 apt install python2
 apt install git 
 git clone https://github.com/UltimateHackers/huemv hue $HOMEcd $HOME/huepython2 hue.pyfi if [ $bro = 180 ] || [ $bro = 180 ] apt update apt upgradeapt install python2apt install gitgit clone https://github.com/UltimateHackers/nano mv nano $HOMEcd $HOME/nanopython2 handler.py
 fi
 
-11) echo -e "Thanx Sudah mampir :)  " | lolcat
-exit
+11) apt update && apt upgrade
+apt install git
+apt install php 
+apt install figlet 
+apt install toilet 
+apt install python2
+pip2 install requests 
+pip2 install termcolor
+git clone https://github.com/DarknessCyberTeam/BAJINGANv6.git
+cd BAJINGANv6
+sh BAJINGAN.sh
+username : BAJINGAN
+password : Gans
+
 ;;
 
+12) echo -s "Salam Script Kiddie" |lolcat
+
+exit 
 
 *) echo -e "sorry, pilihan yang anda cari tidak ada" | lolcat
 esac
