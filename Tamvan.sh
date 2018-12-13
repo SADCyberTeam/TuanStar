@@ -42,17 +42,15 @@ red='\e[1;31m'
 figlet Star | lolcat
 
 
-echo -b "_____________________________________________________________"
+echo "_____________________________________________________________"
 
-echo -b " TOLLS $green " |lolcat
+echo "Created By Me : ./Tuan Star $pink " |lolcat
 
-echo -b "Created By Me : ./Tuan Star$pink " |lolcat
+echo "From : S.A.D Cyber Team  " |lolcat
 
-echo -b "From : S.A.D Cyber Team  $cyan " |lolcat
+echo "NOTE : Aku Tamvan >:v " | lolcat
 
-echo -b "NOTE : Aku Tamvan >:v " | lolcat
-
-echo -b "_____________________________________________________________"
+echo "_____________________________________________________________"
 
 
 ###################################################
@@ -67,18 +65,18 @@ ctrl_c() {
 
 clear
 
-echo -b $green"[#]> (Ctrl + C ) Detected, Trying To Exit ... " |lolcat
+echo  $green"[#]> (Ctrl + C ) Detected, Trying To Exit ... " |lolcat
 
-echo -b $green"[#]> Thanks for Crotz didalem" |lolcat
+echo  $green"[#]> Thanks for Crotz didalem" |lolcat
 
 sleep 1
 
 echo ""
 
-echo -b $green"[#]> Star Tamvan :v ada di hatimu :*" |lolcat
+echo  $green"[#]> Star Tamvan :v ada di hatimu :*" |lolcat
 
 
-echo -b $green"[#]> See you Again SCRIPTKIDDIES😎 :)..." |lolcat
+echo  $green"[#]> See you Again SCRIPTKIDDIES😎 :)..." |lolcat
 
 sleep 1
 
@@ -95,61 +93,61 @@ do
 
 echo ""
 
-echo -e $b "1. Install Nmap${enda}";
+echo $b "1. Install Nmap${enda}";
 
-echo -e "============================" | lolcat
+echo  "============================" | lolcat
 
-echo -e $b "2. Install Admin-finder${endcla}";
+echo  $b "2. Install Admin-finder${endcla}";
 
-echo -e "============================" | lolcat
+echo  "============================" | lolcat
 
-echo -e $b "3. Install RED_HAWK${enda}";
+echo  $b "3. Install RED_HAWK${enda}";
 
-echo -e "============================" | lolcat
+echo  "============================" | lolcat
 
-echo -e $b "4. Install Lazymux${enda}";
+echo  $b "4. Install Lazymux${enda}";
 
-echo -e "============================" | lolcat
+echo  "============================" | lolcat
 
-echo -e $b "5. Install Tools-X${enda}";
+echo  $b "5. Install Tools-X${enda}";
 
-echo -e "============================" | lolcat
+echo "============================" | lolcat
 
-echo -e $b "6. Install Mrcakil${enda}";
+echo  $b "6. Install Mrcakil${enda}";
 
-echo -e "============================" | lolcat
+echo  "============================" | lolcat
 
-echo -e $b "7. Install D-TECT${enda}";
+echo  $b "7. Install D-TECT${enda}";
 
-echo -e "============================" | lolcat
+echo "============================" | lolcat
 
-echo -e $b "8. Install Mr.Rv1.1${enda}";
+echo  $b "8. Install Mr.Rv1.1${enda}";
 
-echo -e "============================" | lolcat
+echo  "============================" | lolcat
 
-echo -e $b "9. Install BAJINGANv6${enda}";
+echo  $b "9. Install BAJINGANv6${enda}";
 
-echo -e "============================" | lolcat
+echo  "============================" | lolcat
 
-echo -e $b "10. Install MultiBruteForce(MBF)${enda}";
+echo  $b "10. Install MultiBruteForce(MBF)${enda}";
 
-echo -e "============================" | lolcat
+echo  "============================" | lolcat
 
-echo -e $b "11. Install XERXES${enda}";
+echo  $b "11. Install XERXES${enda}";
 
-echo -e "============================" | lolcat
+echo  "============================" | lolcat
 
-echo -e $b "12. Install LITESPAM${enda}";
+echo  $b "12. Install LITESPAM${enda}";
 
-echo -e "============================" | lolcat
+echo  "============================" | lolcat
 
-echo -e $b "13. Install Android-Malware${enda}";
+echo  $b "13. Install Android-Malware${enda}";
 
-echo -e "============================" | lolcat
+echo  "============================" | lolcat
 
-echo -e $b "99. Exit${enda}";
+echo  $b "99. Exit${enda}";
 
-echo -e "╭─Star [chose your tools]" | lolcat
+echo  "╭─Star [chose your tools]" | lolcat
 
 read -p "╰─#" pil;
 
@@ -418,8 +416,8 @@ cd /data/data/com.termux/files/home/android-malware
 ;;
 
 
-99) echo "Aing Tamvan >:v " | lolcat
-
+99) echo "Thanx Mastah Sudah mampir :* " | lolcat
+echo "I'm Joned >:v" | lolcat
 exit
 
 ;;
