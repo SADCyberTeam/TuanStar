@@ -3,13 +3,8 @@
 #version 1.0
 
 
-#MAU NGAPAIN OM?:V
-
-#RECODE?REEDIT?RECOPYRIGHT?
-
-#MALU TOLOL!!!
-
-#KAGA BERMORAL!
+#MAU NGAPAIN coeg?:v
+#I'mJoned>:v
 
 
 
@@ -74,13 +69,13 @@ clear
 
 echo -b $green"[#]> (Ctrl + C ) Detected, Trying To Exit ... " |lolcat
 
-echo -b $green"[#]> Thanks For Using My Tools" |lolcat
+echo -b $green"[#]> Thanks for Crotz didalem" |lolcat
 
 sleep 1
 
 echo ""
 
-echo -b $green"[#]> TUAN B4DUT On Your System" |lolcat
+echo -b $green"[#]> Star Tamvan :v ada di hatimu :*" |lolcat
 
 
 echo -b $green"[#]> See you Again SCRIPTKIDDIES😎 :)..." |lolcat
