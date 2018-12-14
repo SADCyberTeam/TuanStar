@@ -109,7 +109,7 @@ echo -e $b "4. Install Lazymux${enda}";
 
 echo  "============================" | lolcat
 
-echo  $b "5. Install Tools-X${enda}";
+echo -e $b "5. Install Tools-X${enda}";
 
 echo  "============================" | lolcat
 
