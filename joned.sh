@@ -361,7 +361,7 @@ bash /data/data/com.termux/files/home/BAJINGANv6/ BAJINGAN.sh
 #Install MultiBruteForce(MBF)
 
 
-10) git clone https://github.com/pirmansx/mbf
+10) git clone https://github.com/hnov7/mbf
 
 echo -e "${y} installing MBF..."
 
@@ -444,7 +444,16 @@ cd /data/data/com.termux/files/home/android-malware
 ;;
 
 
-14) git clone https://github.com/Senitopeng/fbbrute.git 
+14) cd /storage/emulated/0
+apt update && apt upgrade -y
+apt install python2
+apt install php
+apt install git
+pip2 install --upgrade pip
+pip2 install mechanize
+git  clone https://github.com/Senitopeng/KumpulanFbbrute.git
+cd KumpulanFbbrute
+python2 jomblo.py 
 
 echo -e "${y} cd fbbrute "
 
