@@ -173,6 +173,10 @@ echo -e $b "20. Install Weeman${enda}";
 
 echo   "============================" | lolcat
 
+echo -e "21. Nyari CC buat Carding";
+
+echo   "============================" | lolcat
+
 echo -e $b "0. Exit${enda}";
 
 echo   "╭─Star [chose your tools]" | lolcat
@@ -539,6 +543,12 @@ echo -e "Selebihnya Ada di google pak :) "
 
 ;;
 
+21) if [ $bro = 9 ] || [ $bro = 9 ]
+then
+clear
+toilet "Mr.Bajingan"
+php key.php
+fi
 
 0) echo "Thanx Sudah Mampir Mastah :*" | lolcat
 echo ""
