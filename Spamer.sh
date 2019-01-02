@@ -83,9 +83,7 @@ case $pil in
 
 #Telkomsel
 
-1) then
-
-clear
+1) clear
 
 toilet -f lean "TELKOMSEL"
 
@@ -93,12 +91,10 @@ php telkomsel.php
 
 sh Spamer.sh
 
-fi
 
+;;
 
-2) then
-
-clear 
+2) clear
 
 toilet -f lean "PHD"
 
@@ -110,9 +106,7 @@ sh Spamer.sh
 
 
 
-3) then
-
-clear
+3) clear 
 
 php Bomtokped.php
 
@@ -121,9 +115,7 @@ sh Spamer.sh
 ;;
 
 
-99) then
-
-echo "semoga MantanMu senang gan :v.   "
+99) echo "semoga MantanMu senang gan :v.   "
 
 echo " THX Ferguoso :v "
 
