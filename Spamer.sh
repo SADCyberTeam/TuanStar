@@ -1,6 +1,6 @@
   clear
 
-figlet -f bigmono9 "Spam Sms ::v" | lolcat
+figlet -f  "Spam Sms ::v" | lolcat
 
 echo "\033[38;1m ------------------------------------------------------------------"|lolcat
 
