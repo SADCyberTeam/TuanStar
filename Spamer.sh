@@ -76,61 +76,56 @@ echo "\033[33;1m"" pilih Senjata lu cuk!  :v"
 
 read -p " ~~#" pil;
 
-
+#Telkomsel
 
 case $pil in
 
 
-#Telkomsel
 
-1) clear
+if [ $ezz = 01 ] || [ $ezz = 1 ]
 
-toilet -f lean "TELKOMSEL"
+then
+
+clear
+
+toilet -f  lean  "TELKOMSEL"
 
 php telkomsel.php
 
 sh Spamer.sh
 
+fi
 
-;;
+#PHD
 
-2) clear
+if [ $ezz = 02 ] || [ $ezz = 2 ]
+
+then
+
+clear 
 
 toilet -f lean "PHD"
 
-php BomPHD.php
+php phd.php
 
 sh Spamer.sh
-
-;;
-
-
-
-3) clear 
-
-php Bomtokped.php
-
-sh Spamer.sh
-
-;;
-
-
-99) echo "semoga MantanMu senang gan :v.   "
-
-echo " THX Ferguoso :v "
 
 fi
 
-exit
+#Tokped
 
-;;
+if [ $ezz = 03 ] || [ $ezz = 3 ]
 
+then
 
-*) echo "Tidak Semudah Itu Ferguoso"
+clear
 
-esac
+toilet -f lean "TOKPED"
 
-done
+php tokped.php
 
-done
+sh Spamer.sh
+
+fi
+
 
