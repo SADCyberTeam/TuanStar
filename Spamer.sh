@@ -60,26 +60,30 @@ echo ""
  
     echo ""
 
-     echo " (01)TELKOMSEL "
+     echo $b" (01)TELKOMSEL "
 
-     echo " (02)PHD"
+     echo $b" (02)PHD "
 
-     echo " (03)TOKOPEDIA" 
+     echo $b" (03)TOKOPEDIA " 
 
-     echo " (0)INFO "
+     echo $b" (0)INFO "
 
-     echo " (99)Keluar "
+     echo $b" (99)Keluar "
      
      echo ""
 
 echo "\033[33;1m"" pilih Senjata lu cuk!  :v"
 
-read ezz 
+read -p " ~~#" pil;
 
 
-if [ $ezz = 02 ] || [ $ezz = 1]
 
-then
+case $pil in
+
+
+#Telkomsel
+
+1) then
 
 clear
 
@@ -92,9 +96,7 @@ sh Spamer.sh
 fi
 
 
-if [ $ezz = 03 ] || [ $ezz = 2 ]
-
-then
+2) then
 
 clear 
 
@@ -104,11 +106,11 @@ php BomPHD.php
 
 sh Spamer.sh
 
-fi
+;;
 
-if [ $ezz = 05 ] || [ $ezz = 3 ]
 
-then
+
+3) then
 
 clear
 
@@ -116,12 +118,10 @@ php Bomtokped.php
 
 sh Spamer.sh
 
-fi
+;;
 
 
-if [ $ezz = 99 ]
-
-then
+99) then
 
 echo "semoga MantanMu senang gan :v.   "
 
@@ -129,4 +129,16 @@ echo " THX Ferguoso :v "
 
 fi
 
+exit
+
+;;
+
+
+*) echo "Tidak Semudah Itu Ferguoso"
+
+esac
+
+done
+
+done
 
