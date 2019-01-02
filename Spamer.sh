@@ -74,11 +74,11 @@ echo ""
 
 echo "\033[33;1m"" pilih Senjata lu cuk!  :v"
 
-read -p " ~~#" pil;
+read -p " ~~#" ezz;
 
 #Telkomsel
 
-case $pil in
+case $ezz in
 
 
 
