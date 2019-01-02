@@ -20,15 +20,15 @@ echo ""
 
     
 
-     echo "\033[32;1m"" (01)TELKOMSEL "
+     echo " (01)TELKOMSEL "
 
-     echo "\033[33;1m"" (02)PHD"
+     echo " (02)PHD"
 
-     echo "\033[32;1m"" (03)TOKOPEDIA" 
+     echo " (03)TOKOPEDIA" 
 
-     echo "\033[34;1m"" (0)INFO "
+     echo " (0)INFO "
 
-     echo "\033[34;1m"" (99)Keluar "
+     echo " (99)Keluar "
 
 echo "\033[33;1m"" pilih Senjata lu cuk!  :v"
 
