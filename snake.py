@@ -6,6 +6,7 @@ from curses import KEY_RIGHT, KEY_LEFT, KEY_UP, KEY_DOWN
 from random import randint
 
 print("Game Play In Termux :v ")
+print("By Star Tamvan ;v")
 curses.initscr()
 win = curses.newwin(20, 60, 0, 0)
 win.keypad(1)
@@ -74,4 +75,4 @@ while key != 27:                                                   # While Esc k
     
 curses.endwin()
 print("\nScore - " + str(score))
-print("http://bitemelater.in\n")
+print("Trima kasih Sudah Datang  ;v")
