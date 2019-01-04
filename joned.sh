@@ -196,7 +196,7 @@ read web
 
 nmap $web
 
-echo
+echo "" 
 
 
 ;;
@@ -217,7 +217,7 @@ cd /data/data/com.termux/files/home/admin-finder/
 
 python2 /data/data/com.termux/files/home/admin-finder/admin-finder.py
 
-echo
+echo ""
 
 
 ;;
