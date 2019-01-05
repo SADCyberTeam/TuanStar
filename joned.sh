@@ -36,7 +36,7 @@ clear
  figlet Tools  |lolcat
 
 echo $b "_________________________________________________"
-echo $b  "Tools    : ./Tuan Star $white" | lolcat
+echo $b  "Tools    : Installer $white" | lolcat
 echo $b  "Created by  : Star $white" | lolcat
 echo $b "From  : S.A.D Cyber Team $enda" | lolcat
 echo $b "_________________________________________"
@@ -50,21 +50,18 @@ echo  "============================" | lolcat
 echo $b "03.   GamePlay$enda"
 echo  "============================" | lolcat
 echo ""
-read -p "--# " ezz;
+read -p "root@user ─# " ezz;
 
-#InfoTools
 
-case $ezz in
-
-if [ $ezz = 01 ] || [ $ezz = 1 ]
+if [ $ezz = 01 ] || [ $ezz = 1]
 
 then
 
 clear
 
-echo $b "Sedang Dalam Perbaikan"
+toilet -f learn "Info" | lolcat
 
-echo "Mohon Tunggu...."
+echo "sedang dalam Perbaikan Dimohon Tunggu..."
 
 sh joned.sh
 
@@ -89,7 +86,9 @@ fi
 if [ $ezz = 03 ]
 
 then
+
 echo "Bermainlah Sebentar :v"
+
 python2 snake.py
 
 fi
