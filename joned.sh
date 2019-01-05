@@ -35,11 +35,10 @@ clear
  
  figlet Star   |lolcat
 
-echo -e
-"_________________________________________________"
-echo $b  "Tools    : ./Tuan Star $white "|lolcat
-echo $b  "Created by  : Star $white   "|lolcat
-echo $b "From  : S.A.D Cyber Team $cyan " |lol$
+echo $b "_________________________________________________"
+echo $b  "Tools    : ./Tuan Star $white" | lolcat
+echo $b  "Created by  : Star $white" | lolcat
+echo $b "From  : S.A.D Cyber Team $cyan" | lolcat
 echo $b "_________________________________________"
 echo ""
 echo ""
