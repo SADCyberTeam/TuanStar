@@ -5,8 +5,6 @@ import curses
 from curses import KEY_RIGHT, KEY_LEFT, KEY_UP, KEY_DOWN
 from random import randint
 
-print("Game Play In Termux :v ")
-print("By Star Tamvan ;v")
 curses.initscr()
 win = curses.newwin(20, 60, 0, 0)
 win.keypad(1)
