@@ -61,41 +61,40 @@ figlet -f bigmono9 "TOOLS " | lolcat
 
 echo "------------------------------------------------------------------"| lolcat
 
-echo $cyan "My Contact : 0895422939836 "
+echo "My Contact : 0895422939836 "
 
-echo  $blue" From : S.A.D Cyber Team "
+echo " From : S.A.D Cyber Team "
 
-echo $cyan" Upgrading : SaturDay 5 - 01 - 2019"
+echo " Upgrading : SaturDay 5 - 01 - 2019"
 
-echo  $red" By Tn. Star :v"
+echo " By Tn. Star :v"
 
-echo  " Tools Installer"
+echo " Tools Installer"
 
-echo  " #Note : Sekali Tekan Langsung Terinstall!!"
+echo " #Note : Sekali Tekan Langsung Terinstall!!"
 
-echo  " ------------------------------------------------------------------"| lolcat
+echo " ------------------------------------------------------------------"| lolcat
 
 echo ""
 echo ""
 echo ""
-echo "1.  Nmap$enda";
+echo "1.  Nmap";
 echo "============================" | lolcat
-echo "2.  Admin-finder$enda";
+echo "2.  Admin-finder";
 echo  "============================" | lolcat
-echo "3.  RED_HAWK$enda";
+echo "3.  RED_HAWK";
 echo  "============================" | lolcat
-echo "4.   Lazymux$enda";
+echo "4.   Lazymux";
 echo  "============================" | lolcat
-echo "5. elfinder Xploit$enda";
+echo "5. elfinder Xploit";
 echo  "============================" | lolcat
-echo "6. BomHash$enda";
+echo "6. BomHash";
 echo  "============================" | lolcat
-echo "7. Plutus$enda";
+echo "7. Plutus";
 echo  "============================" | lolcat
-echo "8. ContexPloit$enda";
+echo "8. ContexPloit";
 echo "============================" | lolcat 
-
-echo " 9.  D-Tect$enda"
+echo " 9.  D-Tect"
 echo "============================" | lolcat 
 echo " 10. Hunner"
 echo "============================" | lolcat 
@@ -113,7 +112,6 @@ echo " 16.  Weevely"
 echo "============================" | lolcat 
 echo "17.   SQLMap"
 echo "============================" | lolcat 
-
 echo "18. Scanner Tools "
 echo "============================" | lolcat 
 echo "19.  Root Android!"
@@ -122,7 +120,6 @@ echo "20.  Spam call"
 echo "============================" | lolcat 
 echo "21.   Spam Sms"
 echo "============================" | lolcat 
-
 echo "22. Install Spyder"
 echo "============================" | lolcat 
 echo " 23.  Th3 Inspector"
