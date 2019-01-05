@@ -8,6 +8,7 @@
 #RecodeOrCopyPaste?
 #GaGunaGoblok!! 
 
+clear 
 
 # Variables
 
@@ -39,8 +40,6 @@ cyan='\e[1;36m'
 
 red='\e[1;31m'
 
-clear
-
 ###################################################
 # CTRL C
 ###################################################
@@ -60,101 +59,99 @@ exit
 
 figlet -f bigmono9 "TOOLS " | lolcat
 
-echo "\033[38;1m ------------------------------------------------------------------"| lolcat
+echo "------------------------------------------------------------------"| lolcat
 
-echo "\033[31;1m " "My Contact : 0895422939836 "
+echo $cyan "My Contact : 0895422939836 "
 
-echo "\033[32;1m" " From : S.A.D Cyber Team "
+echo  $blue" From : S.A.D Cyber Team "
 
-echo "\033[37;1m" " Upgrading : SaturDay 5 - 01 - 2019"
+echo $cyan" Upgrading : SaturDay 5 - 01 - 2019"
 
-echo "\033[36;1m" " By Tn. Star :v"
+echo  $red" By Tn. Star :v"
 
-echo "\033[35;1m" " Tools Installer"
+echo  " Tools Installer"
 
-echo "\033[35;1m" " #Note : Sekali Tekan Langsung Terinstall!!"
+echo  " #Note : Sekali Tekan Langsung Terinstall!!"
 
-echo "\033[38;1m" " ------------------------------------------------------------------"| lolcat
+echo  " ------------------------------------------------------------------"| lolcat
 
 echo ""
 echo ""
 echo ""
-echo  $b "1.  Nmap$enda";
-echo -e "============================" | lolcat
-echo  $b "2.  Admin-finder$enda";
+echo "1.  Nmap$enda";
+echo "============================" | lolcat
+echo "2.  Admin-finder$enda";
 echo  "============================" | lolcat
-echo  $b "3.  RED_HAWK$enda";
+echo "3.  RED_HAWK$enda";
 echo  "============================" | lolcat
-echo $b "4.   Lazymux$enda";
+echo "4.   Lazymux$enda";
 echo  "============================" | lolcat
-echo  $b "5. elfinder Xploit$enda";
+echo "5. elfinder Xploit$enda";
 echo  "============================" | lolcat
-echo  $b "6. BomHash$enda";
+echo "6. BomHash$enda";
 echo  "============================" | lolcat
-echo  $b "7. Plutus$enda";
+echo "7. Plutus$enda";
 echo  "============================" | lolcat
-echo  $b "8. ContexPloit$enda";
+echo "8. ContexPloit$enda";
 echo "============================" | lolcat 
 
-echo $b " 9.  D-Tect$enda"
+echo " 9.  D-Tect$enda"
 echo "============================" | lolcat 
-echo $b " 10. Hunner"
+echo " 10. Hunner"
 echo "============================" | lolcat 
-echo $b " 11. WPScan"
+echo " 11. WPScan"
 echo "============================" | lolcat 
-echo $b " 12.  Ngrok"
+echo " 12.  Ngrok"
 echo "============================" | lolcat 
-echo $b " 13. Torshammer "
+echo " 13. Torshammer "
 echo "============================" | lolcat 
-echo  $b" 14. RouterSploit "
+echo " 14. RouterSploit "
 echo "============================" | lolcat 
-echo $b " 15.  Hydra"
+echo " 15.  Hydra"
 echo "============================" | lolcat 
-echo $b " 16.  Weevely"
+echo " 16.  Weevely"
 echo "============================" | lolcat 
-echo $b "17.   SQLMap"
-echo "============================" | lolcat 
-
-echo  $b"18. Scanner Tools "
-echo "============================" | lolcat 
-echo $b "19.  Root Android!"
-echo "============================" | lolcat 
-echo $b "20.  Spam call"
-echo "============================" | lolcat 
-echo $b "21.   Spam Sms"
+echo "17.   SQLMap"
 echo "============================" | lolcat 
 
-echo  $b "22. Install Spyder"
+echo "18. Scanner Tools "
 echo "============================" | lolcat 
-echo $b " 23.  Th3 Inspector"
+echo "19.  Root Android!"
 echo "============================" | lolcat 
-echo $b " 24.  Bot Kubik"
+echo "20.  Spam call"
 echo "============================" | lolcat 
-echo $b "25.    Bot Cashtree"
+echo "21.   Spam Sms"
 echo "============================" | lolcat 
-echo  $b" 26.    Bot Caping"
+
+echo "22. Install Spyder"
 echo "============================" | lolcat 
-echo $b " 27.  Lacak Ip"
+echo " 23.  Th3 Inspector"
 echo "============================" | lolcat 
-echo $b " 28.  Ohmyzsh"
+echo " 24.  Bot Kubik"
 echo "============================" | lolcat 
-echo $b "29.     MBF facebook"
+echo "25.    Bot Cashtree"
 echo "============================" | lolcat 
-echo  $b" 30.     Arch Linux"
+echo " 26.    Bot Caping"
 echo "============================" | lolcat 
-echo $b " 31.  Nyari CC Buat Carding"
+echo " 27.  Lacak Ip"
 echo "============================" | lolcat 
-echo $b " 32.  Webdav"
+echo " 28.  Ohmyzsh"
 echo "============================" | lolcat 
-echo $b "33. Game Play Snake"
+echo "29.     MBF facebook"
 echo "============================" | lolcat 
-echo $b "34.   Wifite.py"
+echo " 30.     Arch Linux"
 echo "============================" | lolcat 
-echo  $b "0.   Exit${enda}";
+echo " 31.  Nyari CC Buat Carding"
+echo "============================" | lolcat 
+echo " 32.  Webdav"
+echo "============================" | lolcat 
+echo "33. Game Play Snake"
+echo "============================" | lolcat 
+echo "34.   Wifite.py"
+echo "============================" | lolcat 
+echo "0.   Exit${enda}";
 echo ""
 read -p "root@user ─#" ezz;
-
-#NMAP
 
 if [ $ezz = 1 ]
 
@@ -644,15 +641,9 @@ toilet -f learn "Tn.Star" | lolcat
 sleep 2
 
 apt update && apt upgrade
-
-4.) Lalu install nano dan php dengan menggunakan perintah :
-
- apt-get install nano && apt-get install php
-
-
- pkg install git
-
- git clone https://github.com/radenvodka/cashtree/
+apt-get install nano && apt-get install php
+pkg install git
+git clone https://github.com/radenvodka/cashtree/
 
 echo $b "Selangkapnya Di Youtube gan"
 
