@@ -41,6 +41,23 @@ red='\e[1;31m'
 
 clear
 
+###################################################
+# CTRL C
+###################################################
+trap ctrl_c INT
+ctrl_c() {
+clear
+echo -e $red"[#]> (Ctrl + C ) Detected, Trying To Exit ... "
+sleep 1
+echo ""
+echo -e $green"[#]> Terima kasih sudah make tools saya ... "
+sleep 1
+echo ""
+echo -e $white"[#]> Star Tamvan :v  In coming ! ... "
+read enter
+exit
+}
+
 figlet -f bigmono9 "TOOLS " | lolcat
 
 echo "\033[38;1m ------------------------------------------------------------------"| lolcat
@@ -60,27 +77,7 @@ echo "\033[35;1m" " #Note : Sekali Tekan Langsung Terinstall!!"
 echo "\033[38;1m" " ------------------------------------------------------------------"| lolcat
 
 echo ""
-
-   
-###################################################
-# CTRL + C
-###################################################
-trap ctrl_c INT
-ctrl_c() {
-clear
-echo -b $red"[#]> (Ctrl + C ) Detected, Trying To $
-echo -b $cyan"[#]> Thanks"
-sleep 1
 echo ""
-echo -b  $white"[#]> see you gaes :)..."
-sleep 1
-exit
-}
-
-lagi=1
-while [ $lagi -lt 6 ];
-do
-
 echo ""
 echo  $b "1.  Nmap$enda";
 echo -e "============================" | lolcat
