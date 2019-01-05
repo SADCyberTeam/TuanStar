@@ -11,15 +11,17 @@ echo -e "_________________________________________"
 echo ""
 echo ""
 echo ""
-echo -e $b "1.  Tools${enda}";
-echo -e "============================" | lolcat
-echo -e $r "2.  Info${endc}";
-echo -e "============================" | lolcat
-read -p " --# " $pil;
+echo  $b "1.  Tools$enda"
+echo  "============================" | lolcat
+echo  $b "2.  Info$enda"
+echo  "============================" | lolcat
+read -p "--# " $ezz;
 
 #InfoTools
 
-if [ $pil = 1 ]
+case $ezz in
+
+if [ $ezz = 1 ]
 then
 clear
 
@@ -28,7 +30,7 @@ echo "Mohon Tunggu...."
 echo ""
 fi
 
-if [ $pil = 2 ]
+if [ $ezz = 2 ]
 
 then 
 clear
