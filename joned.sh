@@ -33,41 +33,44 @@ red='\e[1;31m'
 clear
 
  
- figlet Star   |lolcat
+ figlet Tools  |lolcat
 
 echo $b "_________________________________________________"
 echo $b  "Tools    : ./Tuan Star $white" | lolcat
 echo $b  "Created by  : Star $white" | lolcat
-echo $b "From  : S.A.D Cyber Team $cyan" | lolcat
+echo $b "From  : S.A.D Cyber Team $enda" | lolcat
 echo $b "_________________________________________"
 echo ""
 echo ""
 echo ""
-echo  $b "1.  Tools$enda"
+echo  $b "01.  Tools$enda"
 echo  "============================" | lolcat
-echo  $b "2.  Info$enda"
+echo  $b "02.  Info$enda"
 echo  "============================" | lolcat
+echo $b "03.   GamePlay$enda"
+echo  "============================" | lolcat
+echo ""
 read -p "--# " ezz;
 
 #InfoTools
 
 case $ezz in
 
-if [ $ezz = 1 ]
+if [ $ezz = 01 ] || [ $ezz = 1 ]
 
 then
 
 clear
 
-echo $b " Sedang Dalam Perbaikan"
+echo $b "Sedang Dalam Perbaikan"
 
 echo "Mohon Tunggu...."
 
-echo ""
+sh joned.sh
 
 fi
 
-if [ $ezz = 2 ]
+if [ $ezz = 02 ] || [ $ezz = 2 ]
 
 then 
 
@@ -79,6 +82,14 @@ echo "coming Tools Installer v3"
 
 echo "By : TuanStar "
 
-echo ""
+sh joned.sh
 
 fi 
+
+if [ $ezz = 03 ]
+
+then
+echo "Bermainlah Sebentar :v"
+python2 snake.py
+
+fi
