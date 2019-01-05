@@ -1,13 +1,46 @@
  #!/bin/bash
  
+ # Variables
+
+b='\033[1m'
+
+u='\033[4m'
+
+bl='\E[30m'
+
+r='\E[31m'
+
+g='\E[32m'
+
+bu='\E[34m'
+
+m='\E[35m'
+
+c='\E[36m'
+
+w='\E[37m'
+
+endc='\E[0m'
+
+enda='\033[0m'
+
+blue='\e[1;34m'
+
+cyan='\e[1;36m'
+
+red='\e[1;31m'
+
+clear
+
+ 
  figlet Star   |lolcat
 
 echo -e
 "_________________________________________________"
-echo -e  "Tools    : ./Tuan Star $white "|lolcat
-echo -e  "Created by  : Star $white   "|lolcat
-echo -e  "From  : S.A.D Cyber Team $cyan " |lol$
-echo -e "_________________________________________"
+echo $b  "Tools    : ./Tuan Star $white "|lolcat
+echo $b  "Created by  : Star $white   "|lolcat
+echo $b "From  : S.A.D Cyber Team $cyan " |lol$
+echo $b "_________________________________________"
 echo ""
 echo ""
 echo ""
