@@ -1,4 +1,8 @@
- figlet -f slant "WEBDAV" | lolcat
+#!/bin/bash
+
+clear
+than
+figlet -f slant "WEBDAV" | lolcat
 echo ""
 echo ""
 echo "==============================" | lolcat
