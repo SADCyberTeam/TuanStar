@@ -8,7 +8,7 @@
 #RecodeOrCopyPaste?
 #GaGunaGoblok!! 
 
-clear 
+clear all
 
 # Variables
 
@@ -61,19 +61,19 @@ figlet -f bigmono9 "TOOLS " | lolcat
 
 echo "------------------------------------------------------------------"| lolcat
 
-echo "My Contact : 0895422939836 "
+echo "$red| My Contact : 0895422939836 "
 
-echo " From : S.A.D Cyber Team "
+echo "$green| From : S.A.D Cyber Team "
 
-echo " Upgrading : SaturDay 5 - 01 - 2019"
+echo "$cyan| Upgrading : SaturDay 5 - 01 - 2019"
 
-echo " By Tn. Star :v"
+echo "$blue| Author : Tn. Star :v"
 
-echo " Tools Installer"
+echo "$red| Tools Installer"
 
-echo " #Note : Sekali Tekan Langsung Terinstall!!"
+echo "$red| #Note : Sekali Tekan Langsung Terinstall!! "
 
-echo " ------------------------------------------------------------------"| lolcat
+echo "------------------------------------------------------------------"| lolcat
 
 echo ""
 echo ""
@@ -159,8 +159,6 @@ clear
 
 toilet -f learn "Tn.Star" | lolcat
 
-sleep 1
-
 pkg install nmap
 
 echo $b "${y} {1} Masukan Web$enda"
@@ -178,8 +176,6 @@ then
 clear
 
 toilet -f learn "Tn.Star" | lolcat
-
-sleep 1
 
 apt update && apt ugrade
 apt install git
@@ -201,8 +197,6 @@ then
 clear
 toilet -f learn "Tn.Star" | lolcat
 
-sleep 1
-
 git clone https://github.com/Tuhinshubhra/RED_HAWK.git
 cd RED_HAWK
 ls
@@ -216,8 +210,6 @@ then
 clear
 toilet -f learn "Tn.Star" | lolcat
 
-sleep 1
-
 
 pkg update && pkg upgrade
 pkg install git python2
@@ -229,10 +221,10 @@ fi
 if [ $ezz = 05 ] || [ $ezz = 5 ]
 
  then
+ 
 clear
-toilet -f learn "Tn.Star" | lolcat
 
-sleep 1
+toilet -f learn "Tn.Star" | lolcat
 
 
 apt update && apt upgrade
@@ -257,8 +249,6 @@ then
 clear
 toilet -f learn "Tn.Star" | lolcat
 
-sleep 1
-
 git clone https://github.com/linuxskills/Boomhash
 
 sh joned.sh
@@ -272,8 +262,6 @@ if [ $ezz = 7 ]
 then
 clear 
 toilet -f learn "Tn.Star" | lolcat 
-
-sleep 1
 
 git clone https://github.com/Isaacdelly/Plutus
 
@@ -289,8 +277,6 @@ then
 clear
 toilet -f learn "Tn.Star" | lolcat
 
-sleep 1
-
 git clone https://github.com/kuburan/contexploit
 
 sh joned.sh
@@ -304,8 +290,6 @@ then
 clear
 
 toilet -f learn "Tn.Star" | lolcat
-
-sleep 1
 
 apt update && apt upgrade
 
@@ -330,8 +314,6 @@ clear
 
 toilet -f learn "Tn.Star" | lolcat
 
-sleep 1
-
 apt-get update && apt-get upgrade
 
 apt install python
@@ -349,8 +331,6 @@ if [ $ezz = 11 ] || [ $ezz = 11 ]
 then
 clear
 toilet -f learn "Tn.Star" | lolcat
-
-sleep 1
 
 apt-get update && apt-get upgrade
 
