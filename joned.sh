@@ -750,6 +750,8 @@ figlet "Tn.Star" | lolcat
 
 sleep 2
 
+php token.php
+
 php bot.php
 
 fi 
