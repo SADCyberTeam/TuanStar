@@ -78,79 +78,79 @@ echo " ------------------------------------------------------------------"| lolc
 echo ""
 echo ""
 echo ""
-echo "1.  Nmap";
+echo "01.  Nmap";
 echo "============================" | lolcat
-echo "2.  Admin-finder";
+echo "02.  Admin-finder";
 echo  "============================" | lolcat
-echo "3.  RED_HAWK";
+echo "03.  RED_HAWK";
 echo  "============================" | lolcat
-echo "4.   Lazymux";
+echo "04.   Lazymux";
 echo  "============================" | lolcat
-echo "5. elfinder Xploit";
+echo "05. elfinder Xploit";
 echo  "============================" | lolcat
-echo "6. BomHash";
+echo "06. BomHash";
 echo  "============================" | lolcat
-echo "7. Plutus";
+echo "07. Plutus";
 echo  "============================" | lolcat
-echo "8. ContexPloit";
+echo "08. ContexPloit";
 echo "============================" | lolcat 
-echo " 9.  D-Tect"
+echo "09. D-Tect"
 echo "============================" | lolcat 
-echo " 10. Hunner"
+echo "10. Hunner"
 echo "============================" | lolcat 
-echo " 11. WPScan"
+echo "11. WPScan"
 echo "============================" | lolcat 
-echo " 12.  Ngrok"
+echo "12. Ngrok"
 echo "============================" | lolcat 
-echo " 13. Torshammer "
+echo "13. Torshammer "
 echo "============================" | lolcat 
-echo " 14. RouterSploit "
+echo "14. RouterSploit "
 echo "============================" | lolcat 
-echo " 15.  Hydra"
+echo "15. Hydra"
 echo "============================" | lolcat 
-echo " 16.  Weevely"
+echo "16. Weevely"
 echo "============================" | lolcat 
-echo "17.   SQLMap"
+echo "17. SQLMap"
 echo "============================" | lolcat 
 echo "18. Scanner Tools "
 echo "============================" | lolcat 
-echo "19.  Root Android!"
+echo "19. Root Android!"
 echo "============================" | lolcat 
-echo "20.  Spam call"
+echo "20. Spam call"
 echo "============================" | lolcat 
-echo "21.   Spam Sms"
+echo "21. Spam Sms"
 echo "============================" | lolcat 
 echo "22. Install Spyder"
 echo "============================" | lolcat 
-echo " 23.  Th3 Inspector"
+echo "23. Th3 Inspector"
 echo "============================" | lolcat 
-echo " 24.  Bot Kubik"
+echo "24. Bot Kubik"
 echo "============================" | lolcat 
-echo "25.    Bot Cashtree"
+echo "25.  Bot Cashtree"
 echo "============================" | lolcat 
-echo " 26.    Bot Caping"
+echo "26.  Bot Caping"
 echo "============================" | lolcat 
-echo " 27.  Lacak Ip"
+echo "27.  Lacak Ip"
 echo "============================" | lolcat 
-echo " 28.  Ohmyzsh"
+echo "28.  Ohmyzsh"
 echo "============================" | lolcat 
-echo "29.     MBF facebook"
+echo "29.  MBF facebook"
 echo "============================" | lolcat 
-echo " 30.     Arch Linux"
+echo " 30. Arch Linux"
 echo "============================" | lolcat 
-echo " 31.  Nyari CC Buat Carding"
+echo " 31. Nyari CC Buat Carding"
 echo "============================" | lolcat 
-echo " 32.  Webdav"
+echo " 32. Webdav"
 echo "============================" | lolcat 
 echo "33. Game Play Snake"
 echo "============================" | lolcat 
-echo "34.   Wifite.py"
+echo "34. Wifite.py"
 echo "============================" | lolcat 
-echo "0.   Exit${enda}";
+echo "00.  Exit${enda}";
 echo ""
 read -p "root@user ─#" ezz;
 
-if [ $ezz = 1 ]
+if [ $ezz = 01 ] || [ $ezz = 1 ]
 
 then
 clear
@@ -170,7 +170,7 @@ fi
 
 #Admin-finder
 
-if [ $ezz = 2 ]
+if [ $ezz = 02 ] || [ $ezz = 2 ]
 
 then
 clear
@@ -190,7 +190,7 @@ fi
 
 #RedHawk
 
-if [ $ezz = 3 ]
+if [ $ezz = 03 ] || [ $ezz = 3 ]
 
 then 
 clear
@@ -205,7 +205,7 @@ php rhawk.php
 
 fi
 
-if [ $ezz = 4 ]
+if [ $ezz = 04 ] || [ $ezz = 4 ]
 
 then
 clear
@@ -221,7 +221,7 @@ cd Lazymux
 python2 Lazymux.py
 fi
 
-if [ $ezz = 5 ]
+if [ $ezz = 05 ] || [ $ezz = 5 ]
 
  then
 clear
@@ -247,7 +247,7 @@ fi
 
 #Install BoomHash
 
-if [ $ezz = 6 ]
+if [ $ezz = 06 ] || [ $ezz = 6 ]
 then
 clear
 toilet -f learn "Tn.Star" | lolcat
@@ -271,15 +271,15 @@ toilet -f learn "Tn.Star" | lolcat
 sleep 2
 
 git clone https://github.com/Isaacdelly/Plutus
-cd Plutus
-python2 plutus.py
+
+sh joned. sh
 
 fi
 
 
 #Install ContexPloit
 
-if [ $ezz = 8 ]
+if [ $ezz = 08 ] || [ $ezz = 8 ]
 then
 clear
 toilet -f learn "Tn.Star" | lolcat
@@ -287,12 +287,12 @@ toilet -f learn "Tn.Star" | lolcat
 sleep 2
 
 git clone https://github.com/kuburan/contexploit
-cd contexploit
-python2 contexploit.py
+
+sh joned.sh
 
 fi
 
-if [ $act = 9 ] 
+if [ $act = 09 ] || [ $ezz = 9 ]
 
 then
 
@@ -317,9 +317,12 @@ fi
 
  
 
-if [ $ezz = 10 ]
+if [ $ezz = 10 ] || [ $ezz = 10 ]
+
 then
+
 clear
+
 toilet -f learn "Tn.Star" | lolcat
 
 sleep 2
@@ -336,7 +339,8 @@ sh joned.sh
 
 fi 
 
-if [ $ezz = 11 ]
+if [ $ezz = 11 ] || [ $ezz = 11 ]
+
 then
 clear
 toilet -f learn "Tn.Star" | lolcat
@@ -369,7 +373,8 @@ sh joned.sh
 
 fi 
 
-if [ $ezz = 12 ]
+if [ $ezz = 12 ] || [ $ezz = 12 ]
+
 then
 clear
 toilet -f learn "Tn.Star" | lolcat
@@ -392,7 +397,8 @@ sh joned.sh
 
 fi 
 
-if [ $ezz = 13 ]
+if [ $ezz = 13 ] || [ $ezz = 13 ]
+
 then
 clear
 toilet -f learn "Tn.Star" | lolcat
@@ -415,7 +421,8 @@ sh joned.sh
 
 fi 
 
-if [ $ezz = 14 ]
+if [ $ezz = 14 ] || [ $ezz = 14 ]
+
 then
 clear
 toilet -f learn "Tn.Star" | lolcat
@@ -442,7 +449,8 @@ sh joned.sh
 
 fi 
 
-if [ $ezz = 15 ]
+if [ $ezz = 15 ] || [ $ezz = 15 ]
+
 then
 clear
 toilet -f learn "Tn.Star" | lolcat
@@ -461,7 +469,8 @@ sh joned.sh
 
 fi 
 
-if [ $ezz = 16 ]
+if [ $ezz = 16 ] || [ $ezz = 16 ]
+
 then
 clear
 toilet -f learn "Tn.Star" | lolcat
@@ -480,7 +489,8 @@ sh joned.sh
 
 fi 
 
-if [ $ezz = 17 ]
+if [ $ezz = 17 ] || [ $ezz = 17 ]
+
 then
 clear
 toilet -f learn "Tn.Star" | lolcat
@@ -497,8 +507,9 @@ cd ~/
 
 sh joned.sh
 fi 
+ 
+if [ $ezz = 18 ] || [ $ezz = 18 ]
 
-if [ $ezz = 18 ]
 then
 clear
 toilet -f learn "Tn.Star" | lolcat
@@ -524,7 +535,8 @@ cd ~/
 sh joned.sh
 fi 
 
-if [ $ezz = 19 ]
+if [ $ezz = 19 ] || [ $ezz = 19 ]
+
 then
 clear
 toilet -f learn "Tn.Star" | lolcat
@@ -547,7 +559,8 @@ sleep 2
 
 fi 
 
-if [ $ezz = 20 ]
+if [ $ezz = 20 ] || [ $ezz = 20 ]
+
 then
 clear
 toilet -f learn "Tn.Star" | lolcat
@@ -555,15 +568,16 @@ toilet -f learn "Tn.Star" | lolcat
 sleep 2
 
 apt update && apt upgrade
- apt install git
- apt/pkg install php
- git clone https://github.com/revan-ar/spamcall
+apt install git
+apt/pkg install php
+git clone https://github.com/revan-ar/spamcall
  
 sh joned.sh
 
 fi 
 
-if [ $ezz = 21]
+if [ $ezz = 21] || [ $ezz = 21 ]
+
 then
 clear
 toilet -f learn "Tn.Star" | lolcat
@@ -576,14 +590,16 @@ sh joned.sh
 
 fi 
 
-if [ $ezz = 22 ]
+if [ $ezz = 22 ] || [ $ezz = 22 ]
+
 then
 clear
 toilet -f learn "Tn.Star" | lolcat
 
 fi 
 
-if [ $ezz = 23 ]
+if [ $ezz = 23 ] || [ $ezz = 23 ]
+
 then
 clear
 toilet -f learn "Tn.Star" | lolcat
@@ -595,8 +611,9 @@ git clone  https://github.com/kuburan/Spyder
 sh joned.sh
 
 fi 
+ 
+if [ $ezz = 24 ] || [ $ezz = 24 ]
 
-if [ $ezz = 24 ]
 then
 clear
 toilet -f learn "Tn.Star" | lolcat
@@ -609,7 +626,8 @@ sh joned.sh
 
 fi 
 
-if [ $ezz = 25 ]
+if [ $ezz = 25 ] || [ $ezz = 25 ]
+
 then
 clear
 toilet -f learn "Tn.Star" | lolcat
@@ -630,7 +648,8 @@ sh joned.sh
 
 fi 
 
-if [ $ezz = 26 ]
+if [ $ezz = 26 ] || [ $ezz = 26 ]
+
 then
 clear
 toilet -f learn "Tn.Star" | lolcat
@@ -650,7 +669,8 @@ sh joned.sh
 
 fi 
 
-if [ $ezz = 27 ]
+if [ $ezz = 27 ] || [ $ezz = 27 ]
+
 then
 clear
 toilet -f learn "Tn.Star" | lolcat
@@ -667,7 +687,8 @@ sh joned.sh
 
 fi 
 
-if [ $ezz = 29 ]
+if [ $ezz = 29 ] || [ $ezz = 29 ]
+
 then
 clear
 toilet -f learn "Tn.Star" | lolcat
@@ -679,8 +700,9 @@ git clone https://github.com/maldevel/IPGeoLocation
 sh joned.sh
 
 fi 
+ 
+if [ $ezz = 30 ] || [ $ezz = 30 ]
 
-if [ $ezz = 30 ]
 then
 clear
 toilet -f learn "Tn.Star" | lolcat
@@ -692,8 +714,9 @@ git clone https://github.com/Cabbagec/termux-ohmyzsh
 sh joned.sh
 
 fi 
+ 
+if [ $ezz = 31 ] || [ $ezz = 31 ]
 
-if [ $ezz = 31 ]
 then
 clear
 toilet -f learn "Tn.Star" | lolcat
@@ -706,7 +729,8 @@ sh joned.sh
 
 fi 
 
-if [ $ezz = 32 ]
+if [ $ezz = 32 ] || [ $ezz = 32 ]
+
 then
 clear
 toilet -f learn "Tn.Star" | lolcat
@@ -719,7 +743,8 @@ sh colly.sh
 
 fi 
 
-if [ $ezz = 33 ]
+if [ $ezz = 33 ] || [ $ezz = 33 ]
+
 then
 clear
 toilet -f learn "Tn.Star" | lolcat
@@ -729,8 +754,9 @@ sleep 2
 python2 snake.py
 
 fi 
+ 
+if [ $ezz = 34 ] || [ $ezz = 34 ]
 
-if [ $ezz = 34 ]
 then
 clear
 toilet -f learn "Tn.Star" | lolcat
@@ -744,7 +770,8 @@ echo $b "Butuh Akses Root!"
 
 fi
 
-if [ $ezz = 0 ]
+if [ $ezz = 00 ] || [ $ezz = 0 ]
+
 then
 clear
 toilet -f learn "Tn.Star" | lolcat
