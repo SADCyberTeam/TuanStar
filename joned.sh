@@ -126,29 +126,29 @@ echo "23. Th3 Inspector"
 echo "============================" | lolcat 
 echo "24. Bot Kubik"
 echo "============================" | lolcat 
-echo "25.  Bot Cashtree"
+echo "25. Bot Cashtree"
 echo "============================" | lolcat 
-echo "26.  Bot Caping"
+echo "26. Bot Caping"
 echo "============================" | lolcat 
-echo "27.  Lacak Ip"
+echo "27. Lacak Ip"
 echo "============================" | lolcat 
-echo "28.  Ohmyzsh"
+echo "28. Ohmyzsh"
 echo "============================" | lolcat 
-echo "29.  MBF facebook"
+echo "29. MBF facebook"
 echo "============================" | lolcat 
-echo " 30. Arch Linux"
+echo "30. Arch Linux"
 echo "============================" | lolcat 
-echo " 31. Nyari CC Buat Carding"
+echo "31. Webdav"
 echo "============================" | lolcat 
-echo " 32. Webdav"
+echo "32. Game Play Snake"
 echo "============================" | lolcat 
-echo "33. Game Play Snake"
+echo "33. Wifite.py"
 echo "============================" | lolcat 
-echo "34. Wifite.py"
+echo "34. FB Bot Coment"
 echo "============================" | lolcat 
-echo "35. FB Bot coment"
-echo "============================" | lolcat 
-echo "00.  Exit${enda}";
+echo "00. Exit${enda}";
+echo "============================" | lolcat
+echo ""
 echo ""
 read -p "root@user ─#" ezz;
 
@@ -692,7 +692,7 @@ sh joned.sh
 
 fi 
 
-if [ $ezz = 29 ] || [ $ezz = 29 ]
+if [ $ezz = 28 ] || [ $ezz = 28 ]
 
 then
 clear
@@ -706,21 +706,7 @@ sh joned.sh
 
 fi 
  
-if [ $ezz = 30 ] || [ $ezz = 30 ]
-
-then
-clear
-toilet -f learn "Tn.Star" | lolcat
-
-sleep 2
-
-git clone https://github.com/Cabbagec/termux-ohmyzsh
-
-sh joned.sh
-
-fi 
- 
-if [ $ezz = 31 ] || [ $ezz = 31 ]
+if [ $ezz = 29 ] || [ $ezz = 29 ]
 
 then
 clear
@@ -733,8 +719,9 @@ git clone https://github.com/hnov7/mbf
 sh joned.sh
 
 fi 
+ 
 
-if [ $ezz = 32 ] || [ $ezz = 32 ]
+if [ $ezz = 31 ] || [ $ezz = 31 ]
 
 then
 clear
@@ -748,7 +735,7 @@ sh colly.sh
 
 fi 
 
-if [ $ezz = 33 ] || [ $ezz = 33 ]
+if [ $ezz = 32 ] || [ $ezz = 32 ]
 
 then
 clear
@@ -760,7 +747,7 @@ python2 snake.py
 
 fi 
  
-if [ $ezz = 34 ] || [ $ezz = 34 ]
+if [ $ezz = 33 ] || [ $ezz = 33 ]
 
 then
 clear
@@ -776,6 +763,18 @@ echo $b "Butuh Akses Root!"
 sh joned.sh
 
 fi
+
+if  if [ $ezz = 34 ] || [ $ezz = 34 ]
+
+then
+clear
+toilet -f learn "Tn.Star" | lolcat
+
+sleep 2
+
+php bot.php
+
+fi 
 
 if [ $ezz = 00 ] || [ $ezz = 0 ]
 
