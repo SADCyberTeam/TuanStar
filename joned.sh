@@ -8,7 +8,7 @@
 #RecodeOrCopyPaste?
 #GaGunaGoblok!! 
 
-clear all
+clear -x
 
 # Variables
 
@@ -61,17 +61,17 @@ figlet -f bigmono9 "TOOLS " | lolcat
 
 echo "------------------------------------------------------------------"| lolcat
 
-echo "$red| My Contact : 0895422939836 "
+echo "| My Contact : 0895422939836 "
 
-echo "$green| From : S.A.D Cyber Team "
+echo "| From : S.A.D Cyber Team "
 
-echo "$cyan| Upgrading : SaturDay 5 - 01 - 2019"
+echo "| Upgrading : SaturDay 5 - 01 - 2019"
 
-echo "$blue| Author : Tn. Star :v"
+echo "| Author : Tn. Star :v"
 
-echo "$red| Tools Installer"
+echo "| Tools Installer"
 
-echo "$red| #Note : Sekali Tekan Langsung Terinstall!! "
+echo "| #Note : Sekali Tekan Langsung Terinstall!! "
 
 echo "------------------------------------------------------------------"| lolcat
 
