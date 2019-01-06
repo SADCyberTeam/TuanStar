@@ -146,6 +146,8 @@ echo "33. Game Play Snake"
 echo "============================" | lolcat 
 echo "34. Wifite.py"
 echo "============================" | lolcat 
+echo "35. FB Bot coment"
+echo "============================" | lolcat 
 echo "00.  Exit${enda}";
 echo ""
 read -p "root@user ─#" ezz;
@@ -157,7 +159,7 @@ clear
 
 toilet -f learn "Tn.Star" | lolcat
 
-sleep 2
+sleep 1
 
 pkg install nmap
 
@@ -174,9 +176,10 @@ if [ $ezz = 02 ] || [ $ezz = 2 ]
 
 then
 clear
+
 toilet -f learn "Tn.Star" | lolcat
 
-sleep 2
+sleep 1
 
 apt update && apt ugrade
 apt install git
@@ -192,11 +195,13 @@ fi
 
 if [ $ezz = 03 ] || [ $ezz = 3 ]
 
+sleep 1
+
 then 
 clear
 toilet -f learn "Tn.Star" | lolcat
 
-sleep 2
+sleep 1
 
 git clone https://github.com/Tuhinshubhra/RED_HAWK.git
 cd RED_HAWK
@@ -211,7 +216,7 @@ then
 clear
 toilet -f learn "Tn.Star" | lolcat
 
-sleep 2
+sleep 1
 
 
 pkg update && pkg upgrade
@@ -227,7 +232,7 @@ if [ $ezz = 05 ] || [ $ezz = 5 ]
 clear
 toilet -f learn "Tn.Star" | lolcat
 
-sleep 2
+sleep 1
 
 
 apt update && apt upgrade
@@ -252,7 +257,7 @@ then
 clear
 toilet -f learn "Tn.Star" | lolcat
 
-sleep 2
+sleep 1
 
 git clone https://github.com/linuxskills/Boomhash
 
@@ -268,7 +273,7 @@ then
 clear 
 toilet -f learn "Tn.Star" | lolcat 
 
-sleep 2
+sleep 1
 
 git clone https://github.com/Isaacdelly/Plutus
 
@@ -284,7 +289,7 @@ then
 clear
 toilet -f learn "Tn.Star" | lolcat
 
-sleep 2
+sleep 1
 
 git clone https://github.com/kuburan/contexploit
 
@@ -300,7 +305,7 @@ clear
 
 toilet -f learn "Tn.Star" | lolcat
 
-sleep 2
+sleep 1
 
 apt update && apt upgrade
 
@@ -325,7 +330,7 @@ clear
 
 toilet -f learn "Tn.Star" | lolcat
 
-sleep 2
+sleep 1
 
 apt-get update && apt-get upgrade
 
@@ -345,7 +350,7 @@ then
 clear
 toilet -f learn "Tn.Star" | lolcat
 
-sleep 2
+sleep 1
 
 apt-get update && apt-get upgrade
 
@@ -379,7 +384,7 @@ then
 clear
 toilet -f learn "Tn.Star" | lolcat
 
-sleep 2
+sleep 1
 
 apt install wget
 
@@ -403,7 +408,7 @@ then
 clear
 toilet -f learn "Tn.Star" | lolcat
 
-sleep 2
+sleep 1
 
 pkg update
 
@@ -427,7 +432,7 @@ then
 clear
 toilet -f learn "Tn.Star" | lolcat
 
-sleep 2
+sleep 1
 
 apt install git
 
@@ -455,7 +460,7 @@ then
 clear
 toilet -f learn "Tn.Star" | lolcat
 
-sleep 2
+sleep 1
 
 apt update && apt install -y wget
 
@@ -768,6 +773,8 @@ git clone https://github.com/derv82/wifite
 echo $b "Lengkapnya di Google :*"
 echo $b "Butuh Akses Root!"
 
+sh joned.sh
+
 fi
 
 if [ $ezz = 00 ] || [ $ezz = 0 ]
@@ -776,8 +783,7 @@ then
 clear
 toilet -f learn "Tn.Star" | lolcat
 
-sleep 2
-
+sleep 1
 echo "Thx Mastah :*"
 echo "Hello Script Kiddie :*"
 echo "Don't Forget Aing itu nuub :*"
