@@ -175,15 +175,14 @@ if [ $ezz = 02 ] || [ $ezz = 2 ]
 then
 clear
 
-toilet -f learn "Tn.Star" | lolcat
+figlet "Tn.Star" | lolcat
 
 apt update && apt ugrade
 apt install git
 apt install python2
 git clone https://github.com/Techzindia/admin_penal
-cd admin_penal
-chmod 777 admin_panel_finder.py
-python2 admin_panel_finder.py
+
+sh joned.sh
 
 fi
 
@@ -195,12 +194,11 @@ sleep 1
 
 then 
 clear
-toilet -f learn "Tn.Star" | lolcat
+figlet "Tn.Star" | lolcat
 
 git clone https://github.com/Tuhinshubhra/RED_HAWK.git
-cd RED_HAWK
-ls
-php rhawk.php
+
+sh joned.sh
 
 fi
 
@@ -208,14 +206,15 @@ if [ $ezz = 04 ] || [ $ezz = 4 ]
 
 then
 clear
-toilet -f learn "Tn.Star" | lolcat
+figlet "Tn.Star" | lolcat
 
 
 pkg update && pkg upgrade
 pkg install git python2
 git clone https://github.com/Gameye98/Lazymux
-cd Lazymux
-python2 Lazymux.py
+
+sh joned.sh
+
 fi
 
 if [ $ezz = 05 ] || [ $ezz = 5 ]
@@ -224,7 +223,7 @@ if [ $ezz = 05 ] || [ $ezz = 5 ]
  
 clear
 
-toilet -f learn "Tn.Star" | lolcat
+figlet "Tn.Star" | lolcat
 
 
 apt update && apt upgrade
@@ -247,7 +246,7 @@ fi
 if [ $ezz = 06 ] || [ $ezz = 6 ]
 then
 clear
-toilet -f learn "Tn.Star" | lolcat
+figlet "Tn.Star" | lolcat
 
 git clone https://github.com/linuxskills/Boomhash
 
@@ -261,7 +260,7 @@ fi
 if [ $ezz = 7 ] 
 then
 clear 
-toilet -f learn "Tn.Star" | lolcat 
+figlet "Tn.Star" | lolcat 
 
 git clone https://github.com/Isaacdelly/Plutus
 
@@ -275,7 +274,7 @@ fi
 if [ $ezz = 08 ] || [ $ezz = 8 ]
 then
 clear
-toilet -f learn "Tn.Star" | lolcat
+figlet "Tn.Star" | lolcat
 
 git clone https://github.com/kuburan/contexploit
 
@@ -289,7 +288,7 @@ then
 
 clear
 
-toilet -f learn "Tn.Star" | lolcat
+figlet "Tn.Star" | lolcat
 
 apt update && apt upgrade
 
@@ -312,7 +311,7 @@ then
 
 clear
 
-toilet -f learn "Tn.Star" | lolcat
+figlet "Tn.Star" | lolcat
 
 apt-get update && apt-get upgrade
 
@@ -330,7 +329,7 @@ if [ $ezz = 11 ] || [ $ezz = 11 ]
 
 then
 clear
-toilet -f learn "Tn.Star" | lolcat
+figlet "Tn.Star" | lolcat
 
 apt-get update && apt-get upgrade
 
@@ -362,7 +361,7 @@ if [ $ezz = 12 ] || [ $ezz = 12 ]
 
 then
 clear
-toilet -f learn "Tn.Star" | lolcat
+figlet "Tn.Star" | lolcat
 
 sleep 1
 
@@ -386,7 +385,7 @@ if [ $ezz = 13 ] || [ $ezz = 13 ]
 
 then
 clear
-toilet -f learn "Tn.Star" | lolcat
+figlet "Tn.Star" | lolcat
 
 sleep 1
 
@@ -410,7 +409,7 @@ if [ $ezz = 14 ] || [ $ezz = 14 ]
 
 then
 clear
-toilet -f learn "Tn.Star" | lolcat
+figlet "Tn.Star" | lolcat
 
 sleep 1
 
@@ -438,7 +437,7 @@ if [ $ezz = 15 ] || [ $ezz = 15 ]
 
 then
 clear
-toilet -f learn "Tn.Star" | lolcat
+figlet "Tn.Star" | lolcat
 
 sleep 1
 
@@ -458,7 +457,7 @@ if [ $ezz = 16 ] || [ $ezz = 16 ]
 
 then
 clear
-toilet -f learn "Tn.Star" | lolcat
+figlet "Tn.Star" | lolcat
 
 sleep 2
 
@@ -478,7 +477,7 @@ if [ $ezz = 17 ] || [ $ezz = 17 ]
 
 then
 clear
-toilet -f learn "Tn.Star" | lolcat
+figlet "Tn.Star" | lolcat
 
 sleep 2
 
@@ -497,7 +496,7 @@ if [ $ezz = 18 ] || [ $ezz = 18 ]
 
 then
 clear
-toilet -f learn "Tn.Star" | lolcat
+figlet "Tn.Star" | lolcat
 
 sleep 2
 
@@ -524,7 +523,7 @@ if [ $ezz = 19 ] || [ $ezz = 19 ]
 
 then
 clear
-toilet -f learn "Tn.Star" | lolcat
+figlet "Tn.Star" | lolcat
 
 sleep 2 
 
@@ -548,7 +547,7 @@ if [ $ezz = 20 ] || [ $ezz = 20 ]
 
 then
 clear
-toilet -f learn "Tn.Star" | lolcat
+figlet "Tn.Star" | lolcat
 
 sleep 2
 
@@ -565,7 +564,7 @@ if [ $ezz = 21] || [ $ezz = 21 ]
 
 then
 clear
-toilet -f learn "Tn.Star" | lolcat
+figlet "Tn.Star" | lolcat
 
 sleep 2
 
@@ -579,7 +578,7 @@ if [ $ezz = 22 ] || [ $ezz = 22 ]
 
 then
 clear
-toilet -f learn "Tn.Star" | lolcat
+figlet "Tn.Star" | lolcat
 
 fi 
 
@@ -587,7 +586,7 @@ if [ $ezz = 23 ] || [ $ezz = 23 ]
 
 then
 clear
-toilet -f learn "Tn.Star" | lolcat
+figlet "Tn.Star" | lolcat
 
 sleep 2
 
@@ -601,7 +600,7 @@ if [ $ezz = 24 ] || [ $ezz = 24 ]
 
 then
 clear
-toilet -f learn "Tn.Star" | lolcat
+figlet "Tn.Star" | lolcat
 
 sleep 2
 
@@ -615,7 +614,7 @@ if [ $ezz = 25 ] || [ $ezz = 25 ]
 
 then
 clear
-toilet -f learn "Tn.Star" | lolcat
+figlet "Tn.Star" | lolcat
 
 sleep 2
 
@@ -637,7 +636,7 @@ if [ $ezz = 26 ] || [ $ezz = 26 ]
 
 then
 clear
-toilet -f learn "Tn.Star" | lolcat
+figlet "Tn.Star" | lolcat
 
 sleep 2
 
@@ -658,7 +657,7 @@ if [ $ezz = 27 ] || [ $ezz = 27 ]
 
 then
 clear
-toilet -f learn "Tn.Star" | lolcat
+figlet "Tn.Star" | lolcat
 
 sleep 2
 
@@ -676,7 +675,7 @@ if [ $ezz = 28 ] || [ $ezz = 28 ]
 
 then
 clear
-toilet -f learn "Tn.Star" | lolcat
+figlet "Tn.Star" | lolcat
 
 sleep 2
 
@@ -690,7 +689,7 @@ if [ $ezz = 29 ] || [ $ezz = 29 ]
 
 then
 clear
-toilet -f learn "Tn.Star" | lolcat
+figlet  "Tn.Star" | lolcat
 
 sleep 2
 
@@ -705,7 +704,7 @@ if [ $ezz = 31 ] || [ $ezz = 31 ]
 
 then
 clear
-toilet -f learn "Tn.Star" | lolcat
+figlet "Tn.Star" | lolcat
 
 sleep 2
 
@@ -719,7 +718,7 @@ if [ $ezz = 32 ] || [ $ezz = 32 ]
 
 then
 clear
-toilet -f learn "Tn.Star" | lolcat
+figlet "Tn.Star" | lolcat
 
 sleep 2
 
@@ -731,7 +730,7 @@ if [ $ezz = 33 ] || [ $ezz = 33 ]
 
 then
 clear
-toilet -f learn "Tn.Star" | lolcat
+figlet "Tn.Star" | lolcat
 
 sleep 2
 
@@ -739,6 +738,7 @@ git clone https://github.com/derv82/wifite
 
 echo $b "Lengkapnya di Google :*"
 echo $b "Butuh Akses Root!"
+sleep 7
 
 sh joned.sh
 
@@ -748,7 +748,7 @@ if  if [ $ezz = 34 ] || [ $ezz = 34 ]
 
 then
 clear
-toilet -f learn "Tn.Star" | lolcat
+figlet "Tn.Star" | lolcat
 
 sleep 2
 
@@ -760,9 +760,10 @@ if [ $ezz = 00 ] || [ $ezz = 0 ]
 
 then
 clear
-toilet -f learn "Tn.Star" | lolcat
+figlet "Tn.Star" | lolcat
 
 sleep 1
+
 echo "Thx Mastah :*"
 echo "Hello Script Kiddie :*"
 echo "Don't Forget Aing itu nuub :*"
