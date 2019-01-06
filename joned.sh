@@ -693,9 +693,7 @@ figlet  "Tn.Star" | lolcat
 
 sleep 2
 
-git clone https://github.com/hnov7/mbf
-
-sh joned.sh
+python2 mbf.py
 
 fi 
  
