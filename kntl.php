@@ -33,6 +33,7 @@ echo "\n"
  echo "$green==>>Trima Kasih Sudah Datang :v\n"
   echo "$red==>>Good Bye Script Kiddie😇\n"
   echo "$purple==>>Please Don't Forget To Support Us\n"
+  echo "$date\n"
   echo "\n"
 ?>
 
