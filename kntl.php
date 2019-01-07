@@ -1,9 +1,18 @@
-#!/bin/bash
+!/data/data/com.termux/files/usr/bin/php
 
 # Recode?OrCopyPaste?
 # ChatSayaKntl!
-{ clear 
-date_default_timezone_set('Asia/Jakarta');
+<?php
+
+if(strtolower(substr(PHP_OS, 0, 3)) == "win") {
+
+$bersih="cls";
+
+} else {
+
+$bersih="clear";
+
+}
 
 $date = date('d-M-Y H:i:s');
 
@@ -35,10 +44,10 @@ echo "\n$yellow
               \       /
         ______( (_  / \______   
       ,'  ,-----'   |        \
-      `--{__________)        \/.\n"
-      @header('Content-Type: text/html; charset=UTF-8');
-
-exit }
+echo $green"      `--{__________)        \/.\n"
+      
+exit 
+?>
 
 
 
