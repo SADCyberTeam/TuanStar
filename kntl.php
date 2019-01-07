@@ -1,4 +1,4 @@
-!/data/data/com.termux/files/usr/bin/php
+#!/data/data/com.termux/files/usr/bin/php
 
 # Recode?OrCopyPaste?
 # ChatSayaKntl!
@@ -45,8 +45,6 @@ echo "\n$yellow
         ______( (_  / \______   
       ,'  ,-----'   |        \
       `--{__________)        \/.\n"
-      
-exit 
 ?>
 
 
