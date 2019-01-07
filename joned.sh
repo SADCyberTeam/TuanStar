@@ -759,8 +759,8 @@ fi
 if [ $ezz = 00 ] || [ $ezz = 0 ]
 
 then
+
 clear
-figlet "Tn.Star" | lolcat
 
 php kntl.php
 
