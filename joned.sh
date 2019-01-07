@@ -762,10 +762,6 @@ then
 clear
 figlet "Tn.Star" | lolcat
 
-sleep 1
-
-echo "Thx Mastah :*"
-echo "Hello Script Kiddie :*"
-echo "Don't Forget Aing itu nuub :*"
+php kntl.php
 
 fi 
