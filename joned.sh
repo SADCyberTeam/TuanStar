@@ -701,7 +701,7 @@ fi
 if [ $ezz = 31 ] || [ $ezz = 31 ]
 
 then
-clear
+
 figlet "Tn.Star" | lolcat
 
 sleep 2
