@@ -744,8 +744,8 @@ fi
 
 if  if [ $ezz = 34 ] || [ $ezz = 34 ]
 
-then
 clear
+
 figlet "Tn.Star" | lolcat
 
 sleep 2
@@ -757,10 +757,6 @@ php bot.php
 fi 
 
 if [ $ezz = 00 ] || [ $ezz = 0 ]
-
-then
-
-clear
 
 php kntl.php
 
