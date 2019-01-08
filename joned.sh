@@ -173,7 +173,6 @@ fi
 if [ $ezz = 02 ] || [ $ezz = 2 ]
 
 then
-clear
 
 figlet "Tn.Star" | lolcat
 
@@ -189,8 +188,6 @@ fi
 #RedHawk
 
 if [ $ezz = 03 ] || [ $ezz = 3 ]
-
-sleep 1
 
 then 
 clear
@@ -363,7 +360,6 @@ then
 clear
 figlet "Tn.Star" | lolcat
 
-sleep 1
 
 apt install wget
 
@@ -387,7 +383,6 @@ then
 clear
 figlet "Tn.Star" | lolcat
 
-sleep 1
 
 pkg update
 
@@ -411,7 +406,6 @@ then
 clear
 figlet "Tn.Star" | lolcat
 
-sleep 1
 
 apt install git
 
@@ -439,8 +433,6 @@ then
 clear
 figlet "Tn.Star" | lolcat
 
-sleep 1
-
 apt update && apt install -y wget
 
 apt install hydra
@@ -458,8 +450,6 @@ if [ $ezz = 16 ] || [ $ezz = 16 ]
 then
 clear
 figlet "Tn.Star" | lolcat
-
-sleep 2
 
 pkg update
 
@@ -479,8 +469,6 @@ then
 clear
 figlet "Tn.Star" | lolcat
 
-sleep 2
-
 apt update && apt upgrade
 
 apt install python2
@@ -497,8 +485,6 @@ if [ $ezz = 18 ] || [ $ezz = 18 ]
 then
 clear
 figlet "Tn.Star" | lolcat
-
-sleep 2
 
 apt update && apt upgrade
 
@@ -525,8 +511,6 @@ then
 clear
 figlet "Tn.Star" | lolcat
 
-sleep 2 
-
  apt update 
 
  apt upgrade
@@ -549,8 +533,6 @@ then
 clear
 figlet "Tn.Star" | lolcat
 
-sleep 2
-
 apt update && apt upgrade
 apt install git
 apt/pkg install php
@@ -565,8 +547,6 @@ if [ $ezz = 21] || [ $ezz = 21 ]
 then
 clear
 figlet "Tn.Star" | lolcat
-
-sleep 2
 
 git clone https://github.com/Senitopeng/SpamSms.git
 
@@ -588,8 +568,6 @@ then
 clear
 figlet "Tn.Star" | lolcat
 
-sleep 2
-
 git clone  https://github.com/kuburan/Spyder
 
 sh joned.sh
@@ -602,8 +580,6 @@ then
 clear
 figlet "Tn.Star" | lolcat
 
-sleep 2
-
 git clone https://github.com/Moham3dRiahi/Th3inspector.git
 
 sh joned.sh
@@ -615,8 +591,6 @@ if [ $ezz = 25 ] || [ $ezz = 25 ]
 then
 clear
 figlet "Tn.Star" | lolcat
-
-sleep 2
 
 git clone https://github.com/radenvodka/kubik-bot
 
@@ -638,8 +612,6 @@ then
 clear
 figlet "Tn.Star" | lolcat
 
-sleep 2
-
 apt update && apt upgrade
 apt-get install nano && apt-get install php
 pkg install git
@@ -659,8 +631,6 @@ then
 clear
 figlet "Tn.Star" | lolcat
 
-sleep 2
-
 git clone https://github.com/anggaid14/caping
 
 echo $b " Lengkapnya di Youtube gan"
@@ -677,8 +647,6 @@ then
 clear
 figlet "Tn.Star" | lolcat
 
-sleep 2
-
 git clone https://github.com/maldevel/IPGeoLocation
 
 sh joned.sh
@@ -691,8 +659,6 @@ then
 clear
 figlet  "Tn.Star" | lolcat
 
-sleep 2
-
 python2 mbf.py
 
 fi 
@@ -703,8 +669,6 @@ if [ $ezz = 31 ] || [ $ezz = 31 ]
 then
 
 figlet "Tn.Star" | lolcat
-
-sleep 2
 
 chmod +x colly.sh
 
@@ -718,8 +682,6 @@ then
 clear
 figlet "Tn.Star" | lolcat
 
-sleep 2
-
 python2 snake.py
 
 fi 
@@ -729,8 +691,6 @@ if [ $ezz = 33 ] || [ $ezz = 33 ]
 then
 clear
 figlet "Tn.Star" | lolcat
-
-sleep 2
 
 git clone https://github.com/derv82/wifite
 
@@ -747,8 +707,6 @@ if  if [ $ezz = 34 ] || [ $ezz = 34 ]
 clear
 
 figlet "Tn.Star" | lolcat
-
-sleep 2
 
 php token.php
 
