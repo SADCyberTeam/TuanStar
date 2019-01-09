@@ -17,7 +17,7 @@ $bersih="clear";
 
 clear
   
-$date = "date"
+
   
 $green = "\e[92m";
 
