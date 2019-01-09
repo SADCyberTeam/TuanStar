@@ -16,15 +16,14 @@ $bersih="clear";
 
 
 clear
-  
-$green = "\e[92m";
 
+clear 
+  
 $red = "\e[91m";
 
 $yellow = "\e[93m";
 
 $blue = "\e[36m";
-
 
 echo "\n$yellow
   ________________________
@@ -34,7 +33,6 @@ echo "\n"
  echo "$green==>>Trima Kasih Sudah Datang :v\n"
   echo "$red==>>Good Bye Script Kiddie😇\n"
   echo "$blue==>>Please Don't Forget To Support Us\n"
-  echo "$date\n"
   echo "\n"
 ?>
 
