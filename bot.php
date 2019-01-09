@@ -31,18 +31,11 @@ pilih:
 system($bersih);
 
 echo "\n$yellow
-
-____ _ _ ____ _
-
-/ ___| _ __ (_) __| | ___ _ __| __ ) ___ | |_
-
-\___ \| '_ \| |/ _` |/ _ \ '__| _ \ / _ \| __|
-
-___) | |_) | | (_| | __/ | | |_) | (_) | |_
-
-|____/| .__/|_|\__,_|\___|_| |____/ \___/ \__|
-
-|_|";
+_____ ____    ____   ___ _____
+|  ___| __ )  | __ ) / _ \_   _|
+| |_  |  _ \  |  _ \| | | || |
+|  _| | |_) | | |_) | |_| || |
+|_|   |____/  |____/ \___/ |_|\n";
 
 echo "\n$blue
 
@@ -70,13 +63,13 @@ input("Comentar");
 
 $msgx=trim(fgets(STDIN));
 
-echo "$red=====================================\n";
+echo "$yellow=====================================\n";
 
 input("Count");
 
 $jumlah=trim(fgets(STDIN));
 
-echo "$red=====================================\n";
+echo "$green=====================================\n";
 
 input("Input Token From File / Paste? [y/n]");
 
@@ -90,13 +83,13 @@ input("Filenane");
 
 $Fname = trim(fgets(STDIN));
 
-echo "$red=====================================\n";
+echo "$yellow=====================================\n";
 
 $token = file_get_contents($Fname);
 
 } elseif($pilih == "n") {
 
-echo "$red=====================================\n";
+echo "$green=====================================\n";
 
 input("Token");
 
@@ -106,7 +99,7 @@ echo "$red=====================================\n";
 
 } else {
 
-echo "$red(!)$yellow Invalid$red (!)$green\n";
+echo "$puple(!)$yellow Invalid$red (!)$green\n";
 
 goto pilih;
 
@@ -176,7 +169,7 @@ $slp2 = $sleep[$slp];
 
 echo "Sleeping For $slp2 Second\n";
 
-echo "$red>$green\n";
+echo "$redloading...$green\n";
 
 sleep($slp2);
 
