@@ -17,15 +17,14 @@ $bersih="clear";
 
 clear
   
+$green = "\e[92m";
 
-  
-$green ="\e[92m";
+$red = "\e[91m";
 
-$red ="\e[91m";
+$yellow = "\e[93m";
 
-$yellow ="\e[93m";
+$blue = "\e[36m";
 
-$blue ="\e[36m";
 
 echo "\n$yellow
   ________________________
