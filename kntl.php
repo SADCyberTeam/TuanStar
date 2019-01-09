@@ -17,13 +17,15 @@ $bersih="clear";
 
 clear
   
-$date = date('d-M-Y H:i:s');
-
+$date = "date"
+  
 $green = "\e[92m";
 
 $red = "\e[91m";
 
 $yellow = "\e[93m";
+
+$blue = "\e[36m";
 
 echo "\n$yellow
   ________________________
@@ -32,7 +34,7 @@ echo "\n$yellow
 echo "\n"
  echo "$green==>>Trima Kasih Sudah Datang :v\n"
   echo "$red==>>Good Bye Script Kiddie😇\n"
-  echo "$purple==>>Please Don't Forget To Support Us\n"
+  echo "$blue==>>Please Don't Forget To Support Us\n"
   echo "$date\n"
   echo "\n"
 ?>
