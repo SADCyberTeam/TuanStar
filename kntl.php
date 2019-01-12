@@ -1,7 +1,6 @@
 #!/data/data/com.termux/files/usr/bin/php
-
-# Recode?OrCopyPaste?
-# ChatSayaKntl!
+#recodeOrCopyPaste? 
+#ChatSayaKontol!
 <?php
 
 if(strtolower(substr(PHP_OS, 0, 3)) == "win") {
@@ -23,7 +22,7 @@ $blue = "\e[36m";
 
 echo "\n$yellow
   ________________________
-<<<<  Author : Tuan Star >>>>
+<<<<  Author : Tuan Sta>>>>
   ------------------------\n";
   echo "\n";
  echo "\n$green==>>Trima Kasih Sudah Datang :v\n";
