@@ -14,10 +14,6 @@ $bersih="clear";
 
 }
 
-
-clear
-
-clear 
   
 $red = "\e[91m";
 
