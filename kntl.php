@@ -25,7 +25,7 @@ echo "\n$yellow
   ________________________
 <<<<  Author : Tuan Star >>>>
   ------------------------\n"
-echo 
+  
  echo "$green==>>Trima Kasih Sudah Datang :v\n"
   echo "$red==>>Good Bye Script Kiddie😇\n"
   echo "$blue==>>Please Don't Forget To Support Us\n"
