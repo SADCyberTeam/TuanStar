@@ -24,11 +24,12 @@ $blue = "\e[36m";
 echo "\n$yellow
   ________________________
 <<<<  Author : Tuan Star >>>>
-  ------------------------\n"
-  
- echo "\n$green==>>Trima Kasih Sudah Datang :v\n"
-  echo "\n$red==>>Good Bye Script Kiddie😇\n"
-  echo "\n$blue==>>Please Don't Forget To Support Us\n"
+  ------------------------\n";
+  echo "\n";
+ echo "\n$green==>>Trima Kasih Sudah Datang :v\n";
+  echo "\n$red==>>Good Bye Script Kiddie😇\n";
+  echo "\n$blue==>>Please Don't Forget To Support Us\n";
+echo "\n";
 ?>
 
 
