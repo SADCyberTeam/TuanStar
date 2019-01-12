@@ -26,9 +26,9 @@ echo "\n$yellow
 <<<<  Author : Tuan Star >>>>
   ------------------------\n"
   
- echo "$green==>>Trima Kasih Sudah Datang :v\n"
-  echo "$red==>>Good Bye Script Kiddie😇\n"
-  echo "$blue==>>Please Don't Forget To Support Us\n"
+ echo "\n$green==>>Trima Kasih Sudah Datang :v\n"
+  echo "\n$red==>>Good Bye Script Kiddie😇\n"
+  echo "\n$blue==>>Please Don't Forget To Support Us\n"
 ?>
 
 
